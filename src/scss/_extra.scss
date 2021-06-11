@@ -1,0 +1,22 @@
+// Use .bi class to align SVG icons
+.bi {
+  display: inline-block;
+  fill: currentColor;
+  height: 1.4em;
+  width: 1.4em;
+  vertical-align: middle;
+  position: relative;
+  top: -0.0625em;
+  text-align: center;
+  stroke-width: 0;
+  overflow: visible;
+}
+
+.bi path {
+  stroke: currentColor;
+}
+
+// remove fill color
+.bi-none {
+  fill: none;
+}

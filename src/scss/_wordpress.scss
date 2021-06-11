@@ -1,0 +1,155 @@
+// Aligning Classes
+.aligncenter {
+  @extend .text-center;
+}
+
+// Basic classes
+.screen-reader-text{
+  @extend .visually-hidden;
+}
+
+
+// Widgets
+.widget{
+  select{
+    @extend .form-select;
+  }
+
+  ul{
+    @extend .list-unstyled;
+    @extend .mb-0;
+  }
+}
+
+
+// Recent Comments
+.recentcomments, .widget_recent_entries ul li {
+  @extend .border-bottom;
+  @extend .py-1;
+
+  &:last-child{
+    @extend .border-0;
+    @extend .mb-0;
+    @extend .pb-0;
+  }
+}
+
+
+// Comments
+.comment-body {
+  @extend .card;
+  @extend .shadow-sm;
+  @extend .mb-2;
+
+  .comment-meta {
+    @extend .card-header;
+    @extend .px-2;
+    @extend .lh-sm;
+    // @extend .p-2;
+    // @extend .d-flex;
+    // @extend .align-items-center;
+    // @extend .justify-content-between;
+
+    .avatar {
+      @extend .rounded;
+      // @extend .shadow-sm;
+      @extend .me-2;
+      @extend .float-start;
+      // @extend .d-none;
+    }
+
+    .says{
+      @extend .d-none;
+    }
+
+    .comment-metadata{
+      @extend .small;
+      @extend .ms-2;
+    }
+  }
+
+  .comment-content{
+    @extend .card-body;
+    // @extend .p-2;
+
+    p{
+      @extend .mb-0;
+    }
+  }
+
+  .reply{
+    @extend .card-footer;
+    // @extend .px-2;
+    @extend .py-1;
+    a{
+      @extend .small;
+      @extend .d-block;
+    }
+  }
+}
+
+.comment .children{
+  @extend .list-unstyled;
+  @extend .ms-3;
+  @extend .border-start;
+  @extend .rounded;
+
+  .comment-body{
+    @extend .border-start-0;
+  }
+}
+
+
+// Comment Form
+#respond {
+  @extend .card;
+  @extend .shadow-sm;
+
+  #reply-title {
+    @extend .card-header;
+    @extend .h4;
+  }
+
+}
+
+#commentform{
+  @extend .card-body;
+
+  #email-notes{
+    @extend .d-none;
+  }
+
+  label{
+    @extend .form-label;
+    @extend .mb-0;
+  }
+
+  #comment, #author, #email, #url{
+    @extend .form-control;
+  }
+
+  .comment-form-cookies-consent{
+    @extend .form-check;
+    @extend .mb-3;
+
+    label {
+      @extend .form-check-label;
+      @extend .small;
+    }
+
+    #wp-comment-cookies-consent{
+      @extend .form-check-input
+    }
+
+  }
+
+  .form-submit{
+    @extend .mb-0;
+
+    #submit{
+      @extend .btn;
+      @extend .btn-primary;
+      @extend .w-100;
+    }
+  }
+}
