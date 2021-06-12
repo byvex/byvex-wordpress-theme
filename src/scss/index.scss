@@ -8,7 +8,6 @@
 @import "~bootstrap/scss/mixins"; // Required
 @import "~bootstrap/scss/utilities"; // Required
 
-
 // Layouts & Components
 @import "~bootstrap/scss/root";
 @import "~bootstrap/scss/reboot"; // Required
@@ -20,7 +19,7 @@
 @import "~bootstrap/scss/forms";
 @import "~bootstrap/scss/buttons";
 @import "~bootstrap/scss/transitions";
-@import "~bootstrap/scss/dropdown";
+// @import "~bootstrap/scss/dropdown";
 // @import "~bootstrap/scss/_button-group";
 @import "~bootstrap/scss/nav";
 @import "~bootstrap/scss/navbar"; // Requires nav
@@ -28,7 +27,7 @@
 // @import "~bootstrap/scss/accordion";
 // @import "~bootstrap/scss/breadcrumb";
 @import "~bootstrap/scss/pagination";
-// @import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/badge";
 @import "~bootstrap/scss/alert";
 // @import "~bootstrap/scss/progress";
 @import "~bootstrap/scss/list-group";

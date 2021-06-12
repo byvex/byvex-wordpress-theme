@@ -1,4 +1,4 @@
 // Import Bootstrap
-import { Alert, Button, Dropdown, Modal } from "bootstrap";
+import { Alert, Button, Dropdown, Collapse } from 'bootstrap';
 
-import "./utility-functions";
+import './utility-functions';

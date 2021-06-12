@@ -1,6 +1,6 @@
 /*
 Theme Name: Byvex
-Theme URI: theme.byvex.com
+Theme URI: https://github.com/byvex/byvex-wordpress-theme
 Author: Byvex Team
 Author URI: https://byvex.com
 Description: New Theme
@@ -16,36 +16,3 @@ Tags: one-column, accessibility-ready, custom-menu, custom-logo, footer-widgets
 Byvex Wordpress Theme, (C) 2021 Byvex.com
 Byvex is distributed under the terms of the GNU GPL
 */
-
-/* Empty styles for theme chech plugin */
-.wp-caption {
-  /*  */
-}
-
-.wp-caption-text {
-  /*  */
-}
-
-.screen-reader-text {
-  /*  */
-}
-
-.gallery-caption {
-  /*  */
-}
-
-.bypostauthor {
-  /*  */
-}
-
-.alignright {
-  /*  */
-}
-
-.alignleft {
-  /*  */
-}
-
-.aligncenter {
-  /*  */
-}

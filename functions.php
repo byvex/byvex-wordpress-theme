@@ -12,10 +12,6 @@
 require get_template_directory() . '/inc/after-setup-theme.php';
 
 
-// Set the content width in pixels, based on the theme's design and stylesheet
-require get_template_directory() . '/inc/content-width.php';
-
-
 // Customizer additions
 require get_template_directory() . '/inc/customizer.php';
 
@@ -26,6 +22,10 @@ require get_template_directory() . '/inc/enqueue-scripts.php';
 
 // The Password Form
 require get_template_directory() . '/inc/password-form.php';
+
+
+// Add preload for CDN
+require get_template_directory() . '/inc/resource-hints.php';
 
 
 // Custom template functions for this theme
