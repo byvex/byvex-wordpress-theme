@@ -12,16 +12,8 @@
 require get_template_directory() . '/inc/after-setup-theme.php';
 
 
-// Customizer additions
-require get_template_directory() . '/inc/customizer.php';
-
-
 // Enqueue scripts and styles
 require get_template_directory() . '/inc/enqueue-scripts.php';
-
-
-// The Password Form
-require get_template_directory() . '/inc/password-form.php';
 
 
 // Add preload for CDN
@@ -41,7 +33,7 @@ require get_template_directory() . '/inc/widgets-init.php';
 
 
 // Load custom WordPress nav walker
-require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
+require get_template_directory() . '/inc/bootstrap_walker_nav_menu.php';
 
 
 // Load plugin compatibility file

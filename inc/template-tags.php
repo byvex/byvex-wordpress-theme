@@ -17,7 +17,9 @@ add_filter('the_excerpt', 'byvex_add_class_to_excerpt');
 
 function byvex_excerpt_more($more)
 {
-	return '...';
+	if (!is_admin()) {
+		return '...';
+	}
 }
 add_filter('excerpt_more', 'byvex_excerpt_more');
 

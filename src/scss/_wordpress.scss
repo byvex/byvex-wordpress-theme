@@ -13,7 +13,11 @@
 
 // Basic classes
 .screen-reader-text {
-	@extend .visually-hidden;
+	@extend .visually-hidden-focusable;
+}
+
+.skip-link:focus {
+	font-weight: 600;
 }
 
 .wp-caption,
