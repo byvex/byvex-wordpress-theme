@@ -87,17 +87,11 @@ video,
 		@extend .card-header;
 		@extend .px-2;
 		@extend .lh-sm;
-		// @extend .p-2;
-		// @extend .d-flex;
-		// @extend .align-items-center;
-		// @extend .justify-content-between;
 
 		.avatar {
 			@extend .rounded;
-			// @extend .shadow-sm;
 			@extend .me-2;
 			@extend .float-start;
-			// @extend .d-none;
 		}
 
 		.says {
@@ -112,7 +106,6 @@ video,
 
 	.comment-content {
 		@extend .card-body;
-		// @extend .p-2;
 
 		p {
 			@extend .mb-0;
@@ -121,7 +114,6 @@ video,
 
 	.reply {
 		@extend .card-footer;
-		// @extend .px-2;
 		@extend .py-1;
 		a {
 			@extend .small;

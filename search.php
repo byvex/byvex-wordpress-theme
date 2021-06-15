@@ -3,19 +3,15 @@
 /**
  * The template for displaying search results pages
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
  * @package Byvex
  */
-
 get_header();
 ?>
-<div class="container py-4">
 
+<div class="container py-4">
 	<?php
 	if (have_posts()) :
 	?>
-
 		<header class="page-header alignwide">
 			<h1 class="page-title">
 				<?php
@@ -45,11 +41,10 @@ get_header();
 		</header><!-- .page-header -->
 		<div class="loop-container">
 			<?php
-			// Start the Loop.
 			while (have_posts()) :
 				the_post();
 				get_template_part('template-parts/content-excerpt');
-			endwhile; // End the loop.
+			endwhile;
 			?>
 		</div>
 	<?php
@@ -58,7 +53,7 @@ get_header();
 		get_template_part('template-parts/content-none');
 	endif;
 	?>
-
 </div>
+
 <?php
 get_footer();

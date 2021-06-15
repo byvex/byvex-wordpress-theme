@@ -3,8 +3,6 @@
 /**
  * Byvex functions and definitions
  *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
  * @package Byvex
  */
 
@@ -34,7 +32,3 @@ require get_template_directory() . '/inc/widgets-init.php';
 
 // Load custom WordPress nav walker
 require get_template_directory() . '/inc/bootstrap_walker_nav_menu.php';
-
-
-// Load plugin compatibility file
-// require get_template_directory() . '/inc/plugin-compatibility/plugin-compatibility.php';

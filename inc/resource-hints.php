@@ -9,13 +9,13 @@
 function byvex_preload($hints, $relation_type)
 {
 	if ('preconnect' === $relation_type && get_theme_mod('cdn_assets_setting') === 'yes') {
-		// jsdelivr.net cdn
+		// uncomment the code below when using jsdelivr.net cdn
 		// $hints[] = [
 		// 	'href'        => 'https://cdn.jsdelivr.net/',
 		// 	'crossorigin' => 'anonymous',
 		// ];
 
-		// fontawesome.com cdn
+		// uncomment the code below when using fontawesome.com cdn
 		// $hints[] = [
 		// 	'href'        => 'https://use.fontawesome.com/',
 		// 	'crossorigin' => 'anonymous',

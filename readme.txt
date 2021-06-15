@@ -1,6 +1,6 @@
 === Byvex ===
 Contributors: byvex
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires at least: 5.0
 Tested up to: 5.2
 Requires PHP: 5.6
@@ -30,9 +30,9 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 == Changelog ==
 
-= 1.0.1 =
-* Released: June 14, 2021
+= 1.0.2 =
+* Released: June 15, 2021
 
 
 == Resources ==
-* Bootstrap - Copyright 2021 Twitter, MIT license
+* Bootstrap v5.0.1 - MIT license (https://github.com/twbs/bootstrap/blob/main/LICENSE)

@@ -6,7 +6,6 @@
  * @package Byvex
  */
 
-
 // Add a pingback url auto-discovery header for single posts, pages, or attachments
 function byvex_pingback_header()
 {

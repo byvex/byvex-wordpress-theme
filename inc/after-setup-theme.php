@@ -19,15 +19,12 @@ if (!function_exists('byvex_setup')) :
 			'default-color' => 'ffffff',
 		));
 		add_theme_support('custom-header', array(
-			'default-image' => 'https://dummyimage.com/140x40',
 			'height' => '40',
 			'flex-height' => false,
 			'width' => '140',
 			'flex-width' => false,
 			'uploads' => true,
-			'random-default' => true,
 			'header-text' => true,
-			'default-text' => '',
 		));
 		add_theme_support(
 			'custom-logo',

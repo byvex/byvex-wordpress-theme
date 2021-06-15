@@ -8,18 +8,13 @@
  * It is used to display a page when nothing more specific matches a query.
  * E.g., it puts together the home page when no home.php file exists.
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
  * @package Byvex
  */
-
 get_header();
 ?>
 
 <div class="container py-4">
-	<?php
-	if (have_posts()) :
-	?>
+	<?php if (have_posts()) : ?>
 
 		<div class="loop-container">
 			<?php
@@ -34,8 +29,7 @@ get_header();
 		byvex_the_posts_pagination();
 	else :
 		get_template_part('template-parts/content-none');
-	endif;
-	?>
+	endif; ?>
 </div>
 
 <?php
