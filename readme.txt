@@ -1,6 +1,6 @@
 === Byvex ===
 Contributors: byvex
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires at least: 5.0
 Tested up to: 5.2
 Requires PHP: 5.6
@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
-Byvex is the lightweight, simple and well organised WordPress theme to serve as a starter Bootstrap 5 template for your next WordPress website project. This theme is packed with the Sass, PostCSS, Autoprefixer, Webpack, etc.
+ A well crafted starter WordPress theme built on top of Bootstrap 5 and Webpack. We created this theme to fulfill just one goal, "A lightweight theme with less code to remove and ready to use with Bootstrap and Webpack". We added the Autoprefixer, Babel, Mini CSS Extract Plugin, PostCSS, Sass to power up the development with essential requirements.
 
 
 == Frequently Asked Questions ==
@@ -22,7 +22,7 @@ You will need to install NodeJS on your computer. Then use 'npm run dev' develop
 
 
 == Copyright ==
-Byvex WordPress Theme, 2020-2021 Byvex.com
+Byvex WP Starter Theme, 2020-2021 Byvex.com
 Byvex is distributed under the terms of the GNU GPL.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -30,8 +30,12 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 == Changelog ==
 
+
+= 1.0.3 =
+* Updated Information
+
 = 1.0.2 =
-* Released: June 15, 2021
+* Released: June 23, 2021
 
 
 == Resources ==
