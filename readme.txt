@@ -1,6 +1,6 @@
 === Byvex ===
 Contributors: byvex
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 Requires at least: 5.0
 Tested up to: 5.2
 Requires PHP: 5.6
@@ -29,6 +29,9 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 
 == Changelog ==
+
+= 2.0.2 =
+* Updated resource-hints.php file
 
 = 2.0.1 =
 * Updated directory structure, added Live Sass Compiler support
