@@ -12,7 +12,7 @@
 </div><!-- #primary -->
 </div><!-- #content -->
 
-<?php get_template_part('template-parts/footer-widgets'); ?>
+<?php get_template_part('sidebar'); ?>
 <?php get_template_part('template-parts/site-footer'); ?>
 
 </div><!-- #page -->

@@ -32,3 +32,7 @@ require get_template_directory() . '/inc/widgets-init.php';
 
 // Load custom WordPress nav walker
 require get_template_directory() . '/inc/bootstrap_walker_nav_menu.php';
+
+
+// WooCommerce Compatibility
+require get_template_directory() . '/inc/woocommerce.php';
